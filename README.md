@@ -17,7 +17,7 @@ Refer to the table below, and based on which set of images you choose, select th
 
 |Class		|Sampler	|Steps	|CFG Scale	|
 |------		|---		|---	|---		|
-|`person`	|`DDIM	`	|`40`	|`7`		|
+|`person`	|`DDIM`		|`40`	|`7`		|
 
 </p>
 </details>
