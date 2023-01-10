@@ -9,15 +9,17 @@ Refer to the table below, and based on which set of images you choose, select th
 |Folder		|Class Prompt	|Negative Prompt	|Instance Prompt to use	|Remarks	|
 |------		|---			|---				|---					|---		|
 |[`person`](/person/)	|`person`		|None				|`<instance> person`	|Your basic, gender-neutral class images. Mileage may vary (training this on my face, I've gotten very quite inaccurate results frequently)|
+|[`photo of a person`](/photo%20of%20a%20person/)|`person`|`ugly, deformed`|`<instance> person`	|Better results for photographic outputs, but feels like it doesnt retain faces that well, and different art styles are comparatively more difficult to achieve.
 
 <details><summary>Generation details</summary>
 <p>
 
 ## Generation details for class images
 
-|Class		|Sampler	|Steps	|CFG Scale	|
-|------		|---		|---	|---		|
-|`person`	|`DDIM`		|`40`	|`7`		|
+|Class		            |Sampler	|Steps	|CFG Scale	|
+|------		            |---		|---	|---		|
+|`person`	            |`DDIM`		|`40`	|`7`		|
+|`photo of a person`	|`DDIM`		|`40`	|`7`		|
 
 </p>
 </details>
